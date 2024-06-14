@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card-body h3 span {
+      font-size: 0.6rem;
+      font-weight: 400;
+    }
+    .card-body p span {
+      font-size: 0.6rem;
+      font-weight: 400;
+    }
+    .card-body p {
+      font-size: 0.8rem;
+    }
+    .card-footer h5 {
+      font-size: 1rem;
+    }
+    .card-footer p {
+      font-size: 0.8rem;
+    }
+    .btn-custom {
+      background-color: black;
+      color: white;
+      font-size: 0.8rem;
+      width: 10rem;
+    }
+    span {
+      background-color: rgb(197, 197, 197);
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .card {
+      margin: 0.5rem;
+      flex: 1 1 calc(25% - 1rem);
+      max-width: calc(25% - 1rem);
+      position: relative;
+    }
+    .available-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: green;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      z-index: 1;
+    }
+    @media (max-width: 1200px) {
+      .card {
+        flex: 1 1 calc(33.33% - 1rem);
+        max-width: calc(33.33% - 1rem);
+      }
+    }
+    @media (max-width: 992px) {
+      .card {
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+      }
+    }
+    @media (max-width: 768px) {
+      .card {
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100% - 1rem);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid mt-4">
+    <div class="card-container">
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+      <!-- Repeat the card block three more times for a total of four cards -->
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="available-badge">Available</div>
+        <img src="./1000557074.jpg" class="card-img-top" alt="car image">
+        <div class="card-body">
+          <h3 class="h5"><span>2017</span> Audi A5 S-LINE</h3>
+          <p>
+            <span>Automatic</span> <span>2000 CC</span> <span>Foreign Used</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint velit enim quas illum reprehenderit inventore dignissimos quia quis recusandae.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Kes 4 55850</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, accusantium.</p>
+          </div>
+          <button class="btn btn-custom">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
